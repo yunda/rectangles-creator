@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should transform db data to array 1`] = `
+Array [
+  Object {
+    "a": 1,
+    "id": "1",
+  },
+  Object {
+    "a": 2,
+    "id": "2",
+  },
+  Object {
+    "a": 3,
+    "id": "3",
+  },
+]
+`;

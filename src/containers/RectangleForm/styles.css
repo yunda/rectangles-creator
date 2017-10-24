@@ -1,0 +1,10 @@
+.fieldset {
+    padding: 0;
+    margin: 0;
+    border: none;
+    margin-bottom: 30px
+}
+
+.formControl {
+    width: 170px;    
+}

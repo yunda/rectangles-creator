@@ -1,0 +1,14 @@
+.RectanglesScene {
+    overflow: auto;
+    height: calc(100vh - 64px);
+    width: 100%;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+@media print {
+    .RectanglesScene {
+        background: black;
+        -webkit-print-color-adjust: exact; 
+    }
+}

@@ -1,0 +1,14 @@
+.TopBar {
+    width: 100%;
+}
+
+.name {
+    flex: 1;
+    padding-right: 20px;
+}
+
+@media print {
+    .TopBar {
+        display: none;
+    }
+}

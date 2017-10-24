@@ -1,0 +1,20 @@
+.Rectangle {
+    fill: #000;
+    stroke: none;
+}
+
+.Rectangle:hover {
+    stroke: #f50057;
+    stroke-width: 1;
+    stroke-linejoin: round;
+}
+
+@media print {
+    .Rectangle {
+        fill: white;
+    }
+
+    .Rectangle:hover{
+        stroke: none;
+    }
+}
