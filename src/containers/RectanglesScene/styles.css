@@ -8,6 +8,7 @@
 
 @media print {
     .RectanglesScene {
+        padding: 0;
         background: black;
         -webkit-print-color-adjust: exact; 
     }

@@ -36,14 +36,12 @@ class RectanglesScene extends Component {
         const rectangleElems = rectanglesArr.map((item) =>{
             return <Rectangle key={`rect-${item.id}`} onClick={this.onRectClick} {...item} />;
         });
-        const maxByX = maxBy(rectanglesArr, 'x');
-        const maxByY = maxBy(rectanglesArr, 'y');
-        const maxByWidth = maxBy(rectanglesArr, 'width');
-        const maxByHeight = maxBy(rectanglesArr, 'height');
+        const maxByX = maxBy(rectanglesArr, rect => rect.x + rect.width);
+        const maxByY = maxBy(rectanglesArr, rect => rect.y + rect.height);
         const svgAttrs = {
             className: styles.svg,
-            width: Math.max(maxByX.x + maxByX.width, maxByWidth.x + maxByWidth.width),
-            height: Math.max(maxByY.y + maxByY.height, maxByHeight.y + maxByHeight.height)
+            width: maxByX.x + maxByX.width,
+            height: maxByY.y + maxByY.height
         };
 
         return (
