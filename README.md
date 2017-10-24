@@ -8,7 +8,7 @@ Platform: [Firebase](https://firebase.google.com/)
 
 UI: [Material UI](https://material-ui-next.com/)
 
-JS: [React](https://reactjs.org/), [Redux](http://redux.js.org/), [Redux Firebase](https://github.com/prescottprue/react-redux-firebase)
+JS: [React](https://reactjs.org/), [Redux](http://redux.js.org/), [Redux Firebase](https://github.com/prescottprue/react-redux-firebase), [Ducks Redux](https://github.com/erikras/ducks-modular-redux)
 
 Styles: [CSS Modules](https://github.com/css-modules/css-modules)
 
